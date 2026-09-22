@@ -53,12 +53,12 @@ while running:
 
     if selected_province:
         info_lines = [
-            f"Zaznaczona prowincja: {selected_province['name']} (ID: {selected_province['id']})",
-            f"Właściciel: {selected_province['owner']}",
-            f"Podatek bazowy: {selected_province['tax']} złota / msc"
+            f"Selected province: {selected_province['name']} (ID: {selected_province['id']})",
+            f"Owner: {selected_province['owner']}",
+            f"Base tax: {selected_province['tax']} gold / month"
         ]
     else:
-        info_lines = ["Kliknij na prowincję, aby wyświetlić szczegóły (czarne tło = woda/brak)."]
+        info_lines = ["Click on a province to view details (black background = water/none)."]
 
     for i, line in enumerate(info_lines):
         txt = font.render(line, True, (220, 220, 220))

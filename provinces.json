@@ -1,0 +1,24 @@
+
+[
+  {
+    "id": 1,
+    "name": "Pomorze",
+    "color": [255, 0, 0],
+    "owner": "Polska",
+    "tax": 8
+  },
+  {
+    "id": 2,
+    "name": "Mazowsze",
+    "color": [0, 255, 0],
+    "owner": "Polska",
+    "tax": 12
+  },
+  {
+    "id": 3,
+    "name": "Małopolska",
+    "color": [0, 0, 255],
+    "owner": "Polska",
+    "tax": 10
+  }
+]

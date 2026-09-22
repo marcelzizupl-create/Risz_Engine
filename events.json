@@ -1,0 +1,24 @@
+[
+  {
+    "id": "revolt_risk",
+    "title": "Peasant revolts",
+    "conditions": {
+      "stability_less_than": 30,
+      "gold_greater_than": 50
+    },
+    "effects": {
+    "gold_add": -50,
+    "stability_add": 10
+    }
+  },
+  {
+    "id": "economic_boom",
+    "title": "The flourishing of trade",
+    "conditions": {
+      "stability_greater_than": 70
+    },
+    "effects": {
+      "gold_add": 25
+    }
+  }
+]

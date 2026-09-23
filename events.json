@@ -1,24 +1,26 @@
 [
   {
     "id": "revolt_risk",
-    "title": "Peasant revolts",
+    "title": "Peasant Revolt",
+    "one_time": true,
     "conditions": {
       "stability_less_than": 30,
-      "gold_greater_than": 50
+      "gold_greater_than": 40
     },
     "effects": {
-    "gold_add": -50,
-    "stability_add": 10
+      "gold_add": -30,
+      "stability_add": 15
     }
   },
   {
     "id": "economic_boom",
-    "title": "The flourishing of trade",
+    "title": "Trade Boom",
+    "one_time": false,
     "conditions": {
       "stability_greater_than": 70
     },
     "effects": {
-      "gold_add": 25
+      "gold_add": 20
     }
   }
 ]

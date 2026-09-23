@@ -1,0 +1,16 @@
+[
+  {
+    "tag": "Crown",
+    "name": "Crown of the Realm",
+    "color": [212, 175, 55],
+    "gold": 100,
+    "stability": 50
+  },
+  {
+    "tag": "Rebels",
+    "name": "Peasant Rebels",
+    "color": [139, 0, 0],
+    "gold": 20,
+    "stability": 30
+  }
+]

@@ -1,26 +1,51 @@
 [
   {
-    "id": "revolt_risk",
-    "title": "Peasant Revolt",
+    "id": "peasant_unrest",
+    "title": "Peasant Rebellion",
+    "description": "Peasants in the countryside demand lower taxes and threaten to revolt!",
     "one_time": true,
     "conditions": {
-      "stability_less_than": 30,
-      "gold_greater_than": 40
+      "stability_less_than": 40,
+      "gold_greater_than": 30
     },
-    "effects": {
-      "gold_add": -30,
-      "stability_add": 15
-    }
+    "options": [
+      {
+        "label": "Bribe the leaders (-35 Gold, +15 Stab)",
+        "effects": {
+          "gold_add": -35,
+          "stability_add": 15
+        }
+      },
+      {
+        "label": "Crush them with force (-20 Stab)",
+        "effects": {
+          "stability_add": -20
+        }
+      }
+    ]
   },
   {
-    "id": "economic_boom",
-    "title": "Trade Boom",
-    "one_time": false,
+    "id": "merchant_guild",
+    "title": "Merchant Fair",
+    "description": "Foreign merchants request a charter to establish a seasonal trading guild.",
+    "one_time": true,
     "conditions": {
-      "stability_greater_than": 70
+      "gold_greater_than": 80
     },
-    "effects": {
-      "gold_add": 20
-    }
+    "options": [
+      {
+        "label": "Grant monopoly (+40 Gold, -5 Stab)",
+        "effects": {
+          "gold_add": 40,
+          "stability_add": -5
+        }
+      },
+      {
+        "label": "Support local traders (+10 Stab)",
+        "effects": {
+          "stability_add": 10
+        }
+      }
+    ]
   }
 ]
